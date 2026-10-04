@@ -48,7 +48,7 @@ car-plate-recognition/
 │   ├── detect.py              # YOLO-детекция
 │   ├── preprocess.py          # Предобработка (grayscale + CLAHE)
 │   ├── ocr_engine.py          # PaddleOCR + постобработка
-│   └── pipeline.py            # Связка всех модулей
+│   └── main.py            # Связка всех модулей
 │
 ├── scripts/                   # Вспомогательные скрипты
 │   ├── train_yolo.py          # Обучение YOLO

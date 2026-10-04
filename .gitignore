@@ -1,0 +1,172 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ============================================
+# Виртуальные окружения
+# ============================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ============================================
+# PyCharm / JetBrains
+# ============================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+# PyCharm локальные настройки
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+# Jupyter Notebook в PyCharm
+.ipynb_checkpoints/
+
+# ============================================
+# Модели и веса (большие файлы)
+# ============================================
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.weights
+*.h5
+*.pkl
+*.pickle
+*.joblib
+*.caffemodel
+*.pb
+*.meta
+*.index
+*.ckpt
+*.safetensors
+models/
+!models/.gitkeep
+
+# ============================================
+# Датасеты и данные
+# ============================================
+datasets/
+data/
+car_plate_dataset/
+benchmark_images/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.csv
+!requirements.csv
+
+# ============================================
+# Результаты работы
+# ============================================
+runs/
+results/
+result/
+outputs/
+output/
+predictions/
+debug/
+debug_benchmark/
+failures/
+density_plots/
+*.log
+benchmark_results.csv
+benchmark_debug/
+
+# ============================================
+# Изображения (кроме примеров в examples/)
+# ============================================
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.gif
+!examples/**/*.jpg
+!examples/**/*.jpeg
+!examples/**/*.png
+!docs/images/**/*.png
+!docs/images/**/*.jpg
+!docs/images/**/*.gif
+
+# ============================================
+# Тестовые артефакты
+# ============================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+coverage.xml
+*.cover
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ============================================
+# ОС
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================
+# IDE / редакторы
+# ============================================
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ============================================
+# Логи и временные файлы
+# ============================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.cache

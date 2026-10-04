@@ -42,7 +42,7 @@
 
 ---
 ## Структура проекта
-
+```
 car-plate-recognition/
 ├── src/                       
 │   ├── detect.py              # YOLO-детекция
@@ -67,7 +67,7 @@ car-plate-recognition/
 ├── .gitignore
 ├── LICENSE
 └── README.md
-
+```
 ---
 
 ## Технологии

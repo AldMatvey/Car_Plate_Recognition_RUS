@@ -54,8 +54,6 @@ car-plate-recognition/
 │   └── train_yolo.py          # Обучение YOLO
 │
 ├── examples/                  # Примеры
-│   ├── input/                 # Входные изображения
-│   └── output/                # Результаты
 │
 ├── docs/                      # Документация
 │   ├── images/                # Изображения для README

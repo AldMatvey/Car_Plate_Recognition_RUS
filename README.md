@@ -51,9 +51,7 @@ car-plate-recognition/
 │   └── main.py                # Связка всех модулей
 │
 ├── scripts/                   # Вспомогательные скрипты
-│   ├── train_yolo.py          # Обучение YOLO
-│   ├── benchmark.py           # Прогон по датасету
-│   └── prepare_benchmark.py   # Подготовка подвыборки
+│   └── train_yolo.py          # Обучение YOLO
 │
 ├── examples/                  # Примеры
 │   ├── input/                 # Входные изображения
